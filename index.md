@@ -16,3 +16,5 @@ In this repository, I have compiled a list of one-line JavaScript Functions that
   const RandomBoolean = () => Math.random() >= 0.5;
 ```
 
+#### This function will return a boolean (true or false) using Math.random() method. It’s a 50/50 chance to get either true or false.
+
