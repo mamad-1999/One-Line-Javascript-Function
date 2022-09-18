@@ -1,7 +1,7 @@
 ![js](https://user-images.githubusercontent.com/91375726/190903509-eedc8784-0e71-492e-8de6-dd667e044a27.png)
 
 
-# One-Line-Javascript-Function
+# 🚀 One-Line-Javascript-Function
 In this repository, I have compiled a list of one-line JavaScript Functions that are used daily and needed by every developer.
 
 
