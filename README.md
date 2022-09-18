@@ -1,9 +1,8 @@
 ![js](https://user-images.githubusercontent.com/91375726/190903509-eedc8784-0e71-492e-8de6-dd667e044a27.png)
 
-
 # 🚀 One-Line-Javascript-Function
-In this repository, I have compiled a list of one-line JavaScript Functions that are used daily and needed by every developer.
 
+In this repository, I have compiled a list of one-line JavaScript Functions that are used daily and needed by every developer.
 
 ## Let’s Start
 
@@ -39,8 +38,18 @@ In this repository, I have compiled a list of one-line JavaScript Functions that
 
 ---
 
+### 4. Generate Random Hex
+
+```bash
+  const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+```
+
+#### You can generate random hex colors using this function.
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
-3. Edit index.md or Readme.md file (add new function)
-5. submit PR
+2. Edit index.md or Readme.md file (add new function)
+3. submit PR

@@ -41,3 +41,13 @@ In this repository, I have compiled a list of one-line JavaScript Functions that
 #### Another useful JavaScript function in this list, which is used to automatically scroll to the top of the web page.
 
 ---
+
+### 4. Generate Random Hex
+
+```bash
+  const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+```
+
+#### You can generate random hex colors using this function.
+
+---
