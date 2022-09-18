@@ -26,10 +26,18 @@ In this repository, I have compiled a list of one-line JavaScript Functions that
 
 ```bash
   const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-
-  copyToClipboard("This String is Copied To Clipboard.");
 ```
 
 #### A useful one-line JavaScript function, which can be used to easily copy any text to the clipboard.
+
+---
+
+### 3. Scroll to Page Top
+
+```bash
+  const goToTop = () => window.scrollTo(0, 0);
+```
+
+#### Another useful JavaScript function in this list, which is used to automatically scroll to the top of the web page.
 
 ---
