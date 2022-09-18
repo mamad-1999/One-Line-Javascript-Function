@@ -38,3 +38,9 @@ In this repository, I have compiled a list of one-line JavaScript Functions that
 #### Another useful JavaScript function in this list, which is used to automatically scroll to the top of the web page.
 
 ---
+
+## Contribution Guide
+
+1. fork the repo
+3. Edit index.md or Readme.md file (add new function)
+5. submit PR
