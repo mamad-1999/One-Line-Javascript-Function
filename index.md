@@ -27,7 +27,7 @@ In this repository, I have compiled a list of one-line JavaScript Functions that
 ```bash
   const copyToClipboard = (text) => navigator.clipboard.writeText(text);
 
-  copyToClipboard("This Sring is Copied To Clipboard.");
+  copyToClipboard("This String is Copied To Clipboard.");
 ```
 
 #### A useful one-line JavaScript function, which can be used to easily copy any text to the clipboard.
