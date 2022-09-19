@@ -62,3 +62,13 @@ const randomHex = () =>
 ```
 
 #### You can validate user base information without long conditions with this function
+
+---
+
+### 6. Reverse a String
+
+```js
+const stringReverse = (str) => str.split("").reverse().join("");
+```
+
+#### You can reverse a string in one line using split, join, and reverse methods.

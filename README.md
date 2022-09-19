@@ -61,6 +61,16 @@ const randomHex = () =>
 
 ---
 
+### 6. Reverse a String
+
+```js
+const stringReverse = (str) => str.split("").reverse().join("");
+```
+
+#### You can reverse a string in one line using split, join, and reverse methods.
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
