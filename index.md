@@ -85,3 +85,17 @@ capitalize("i love javascript.");
 ```
 
 #### As JavaScript doesn’t provide a built-in capitalize method, using this one-line function you can capitalize a string.
+
+---
+
+### 8. Convert RGB to Hex
+
+```js
+const rgbToHex = (r, g, b) =>
+  "#" + ((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1);
+
+rgbToHex(255, 255, 255);
+// "#ffffff"
+```
+
+#### A useful function on this list, which is used to convert the RGB to hex code.
