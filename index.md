@@ -72,3 +72,16 @@ const stringReverse = (str) => str.split("").reverse().join("");
 ```
 
 #### You can reverse a string in one line using split, join, and reverse methods.
+
+---
+
+### 7. Capitalize a String
+
+```js
+const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
+
+capitalize("i love javascript.");
+// I love javascript.
+```
+
+#### As JavaScript doesn’t provide a built-in capitalize method, using this one-line function you can capitalize a string.

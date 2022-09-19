@@ -71,6 +71,19 @@ const stringReverse = (str) => str.split("").reverse().join("");
 
 ---
 
+### 7. Capitalize a String
+
+```js
+const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
+
+capitalize("i love javascript.");
+// I love javascript.
+```
+
+#### As JavaScript doesn’t provide a built-in capitalize method, using this one-line function you can capitalize a string.
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
