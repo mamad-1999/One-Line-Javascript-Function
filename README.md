@@ -48,6 +48,16 @@ In this repository, I have compiled a list of one-line JavaScript Functions that
 
 ---
 
+### 4. Check Not-Empty String Array
+
+```js
+  const isNotEmptyStringArray = (arr) => return arr.indexOf("") === -1 
+```
+
+#### You can validate user base information without long conditions with this function
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
