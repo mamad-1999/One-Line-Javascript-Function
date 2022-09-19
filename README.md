@@ -98,6 +98,19 @@ rgbToHex(255, 255, 255);
 
 ---
 
+### 9. Shuffle an Array
+
+```js
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+
+console.log(shuffleArray([1, 2, 3, 4, 5, 6, 7]));
+// Result: [ 1, 4, 3, 2, 6, 5, 7 ]
+```
+
+#### You can use the following code to shuffle an array. It uses sort and random methods.
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
