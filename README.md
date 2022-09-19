@@ -123,6 +123,17 @@ dayOfYear(new Date());
 
 ---
 
+### 11. Delete selected Item from the array
+
+```js
+const DeletedArray = (arr, sltItem) => arr.filter(item => item !== sltItem);
+
+console.log(DeleteArray(['nafas', 'ali', 'nazi'], 'ali'));
+// Result => ['nafas', 'nazi']
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
