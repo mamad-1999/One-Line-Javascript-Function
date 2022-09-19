@@ -112,3 +112,15 @@ console.log(shuffleArray([1, 2, 3, 4, 5, 6, 7]));
 ```
 
 #### You can use the following code to shuffle an array. It uses sort and random methods.
+
+---
+
+### 10. Find the day of the year
+
+```js
+const dayOfYear = (date) =>
+  Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+
+dayOfYear(new Date());
+// Result: 262
+```
