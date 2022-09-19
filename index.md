@@ -48,6 +48,18 @@ In this repository, I have compiled a list of one-line JavaScript Functions that
   const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
 ```
 
+---
+
+### 5. Check Not-Empty String Array
+
+```js
+  const isNotEmptyStringArray = (arr) => return arr.indexOf("") === -1
+```
+
+#### You can validate user base information without long conditions with this function
+
+---
+
 #### You can generate random hex colors using this function.
 
 ---
