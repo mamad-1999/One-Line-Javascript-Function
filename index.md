@@ -58,7 +58,7 @@ const randomHex = () =>
 ### 5. Check Not-Empty String Array
 
 ```js
-const isNotEmptyStringArray = (arr) => return arr.indexOf("") === -1
+const isNotEmptyStringArray = (arr) => arr.indexOf("") === -1;
 ```
 
 #### You can validate user base information without long conditions with this function
