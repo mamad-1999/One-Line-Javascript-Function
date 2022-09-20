@@ -157,6 +157,21 @@ isDateValid("December 23, 2012 16:24:50");
 
 ---
 
+### 14. Clear All browser Cookies
+
+```js
+const clearCookies = document.cookie
+  .split(";")
+  .forEach(
+    (cookie) =>
+      (document.cookie = cookie
+        .replace(/^ +/, "")
+        .replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`))
+  );
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
