@@ -134,6 +134,16 @@ console.log(DeleteArray(["google", "microsoft", "apple"], "apple"));
 
 ---
 
+### 12. Get a random item from an array
+
+```js
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+```
+
+#### This one-liner returns you a random item from your input array, that you pass as an argument to the function.
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
