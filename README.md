@@ -144,6 +144,19 @@ const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
 ---
 
+### 13. Check if Date is Valid
+
+```js
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+
+isDateValid("December 23, 2012 16:24:50");
+// Result: true
+```
+
+#### Check the user date input validity, using this Js function.
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
