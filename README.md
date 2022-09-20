@@ -172,6 +172,19 @@ const clearCookies = document.cookie
 
 ---
 
+### 15. Split a string by n characters
+
+```js
+const splitedBy3CharString = (str) => str.match(/.{1,3}/g);
+console.log(splitedBy3CharString('123456789'));
+// Result => ['123', '456']
+```
+
+#### You can mask an input with this function.
+- Tip: You can enter one number you want instead of `3` on the regex above.
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
