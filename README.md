@@ -54,7 +54,7 @@ const randomHex = () =>
 ### 5. Check Not-Empty String Array
 
 ```js
-const isNotEmptyStringArray = (arr) => arr.indexOf("") === -1
+const isNotEmptyStringArray = (arr) => arr.indexOf("") === -1;
 ```
 
 #### You can validate user base information without long conditions with this function
@@ -126,10 +126,10 @@ dayOfYear(new Date());
 ### 11. Delete selected Item from the array
 
 ```js
-const DeletedArray = (arr, sltItem) => arr.filter(item => item !== sltItem);
+const DeletedArray = (arr, sltItem) => arr.filter((item) => item !== sltItem);
 
-console.log(DeleteArray(['nafas', 'ali', 'nazi'], 'ali'));
-// Result => ['nafas', 'nazi']
+console.log(DeleteArray(["google", "microsoft", "apple"], "apple"));
+// Result => ['google', 'microsoft']
 ```
 
 ---

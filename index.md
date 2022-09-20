@@ -124,3 +124,16 @@ const dayOfYear = (date) =>
 dayOfYear(new Date());
 // Result: 262
 ```
+
+---
+
+### 11. Delete selected Item from the array
+
+```js
+const DeletedArray = (arr, sltItem) => arr.filter((item) => item !== sltItem);
+
+console.log(DeleteArray(["google", "microsoft", "apple"], "apple"));
+// Result => ['google', 'microsoft']
+```
+
+---
