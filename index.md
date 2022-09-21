@@ -224,7 +224,7 @@ console.log(isAppleDevice);
 
 ---
 
-### 19. 11. Strip HTML From Text
+### 19. Strip HTML From Text
 
 ```js
 const stripHtml = (html) =>
