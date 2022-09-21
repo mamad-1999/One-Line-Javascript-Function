@@ -172,6 +172,41 @@ const clearCookies = document.cookie
 
 ---
 
+### 15. Split a string by n characters
+
+```js
+const splitedBy3CharString = (str) => str.match(/.{1,3}/g);
+console.log(splitedBy3CharString('123456789'));
+// Result => ['123', '456', '789']
+```
+
+#### You can mask an input with this function.
+- Tip: You can enter one number you want instead of `3` on the regex above.
+
+---
+
+### 16. Add space between characters of a string
+
+```js
+const splitedBy3CharString = (str) => str.split('').join(' ');
+console.log(splitedBy3CharString('javascript'));
+// Result => j a v a s c r i p t
+```
+
+---
+
+### 17. Paste from clipboard to inner tag
+
+```js
+const GetCopiedClipboardValue = (element) => navigator.clipboard.readText()
+.then(txt => element.innerHTML = txt);
+console.log(GetCopiedClipboardValue(document.querySelector('p')));
+```
+
+#### You can paste current clipboard value with this function
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
