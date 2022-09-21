@@ -221,3 +221,17 @@ console.log(isAppleDevice);
 ```
 
 #### As in a lot of projects, we need to implement device-based features. You can use this function to make sure that the user is using an Apple device or not.
+
+---
+
+### 19. 11. Strip HTML From Text
+
+```js
+const stripHtml = (html) =>
+  new DOMParser().parseFromString(html, "text/html").body.textContent || "";
+
+console.log(stripHtml("<h1>Hello <strong>World</strong>!!!</h1>"));
+// Result: Hello World!!!
+```
+
+---

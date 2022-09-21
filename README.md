@@ -220,6 +220,18 @@ console.log(isAppleDevice);
 
 ---
 
+### 19. 11. Strip HTML From Text
+
+```js
+const stripHtml = (html) =>
+  new DOMParser().parseFromString(html, "text/html").body.textContent || "";
+
+console.log(stripHtml("<h1>Hello <strong>World</strong>!!!</h1>"));
+// Result: Hello World!!!
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
