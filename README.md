@@ -195,6 +195,18 @@ console.log(splitedBy3CharString('javascript'));
 
 ---
 
+### 17. Paste from clipboard to inner tag
+
+```js
+const GetCopiedClipboardValue = (element) => navigator.clipboard.readText()
+.then(txt => element.innerHTML = txt);
+console.log(GetCopiedClipboardValue(document.querySelector('p')));
+```
+
+#### You can paste current clipboard value with this function
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
