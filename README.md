@@ -177,11 +177,21 @@ const clearCookies = document.cookie
 ```js
 const splitedBy3CharString = (str) => str.match(/.{1,3}/g);
 console.log(splitedBy3CharString('123456789'));
-// Result => ['123', '456']
+// Result => ['123', '456', '789']
 ```
 
 #### You can mask an input with this function.
 - Tip: You can enter one number you want instead of `3` on the regex above.
+
+---
+
+### 16. Add space between characters of a string
+
+```js
+const splitedBy3CharString = (str) => str.split('').join(' ');
+console.log(splitedBy3CharString('javascript'));
+// Result => j a v a s c r i p t
+```
 
 ---
 
