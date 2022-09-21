@@ -211,3 +211,13 @@ console.log(GetCopiedClipboardValue(document.querySelector("p")));
 #### You can paste current clipboard value with this function
 
 ---
+
+### 18. Check if the user is on an Apple device
+
+```js
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+
+console.log(isAppleDevice);
+```
+
+#### As in a lot of projects, we need to implement device-based features. You can use this function to make sure that the user is using an Apple device or not.
