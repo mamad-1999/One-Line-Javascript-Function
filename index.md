@@ -278,3 +278,17 @@ getParameters("https://www.google.de/search?q=animals&start=30");
 #### Very useful function when you are dealing with url, query parameters. You can easily retrieve query parameters from a url by passing, url as the argument of the function.
 
 ---
+
+### 23. Detect Dark Mode
+
+```js
+const isDarkMode =
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+console.log(isDarkMode); // Result: True or False
+```
+
+#### Find out if a user’s device is in dark mode, using the following code.
+
+---
