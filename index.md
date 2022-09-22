@@ -246,3 +246,14 @@ removeDuplicates([11, 56, 22, 11, 45, 22, 11]);
 ```
 
 ---
+
+### 21. Get the Average of an Array of Number
+
+```js
+const average = (arr) => arr.reduce((a, b) => a + b) / arr.length;
+
+average([11, 36, 63, 167, 32]);
+//61.8
+```
+
+---
