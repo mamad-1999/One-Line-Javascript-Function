@@ -232,6 +232,17 @@ console.log(stripHtml("<h1>Hello <strong>World</strong>!!!</h1>"));
 
 ---
 
+### 20. Remove Duplicates in an Array
+
+```js
+const removeDuplicates = (arr) => [...new Set(arr)];
+
+removeDuplicates([11, 56, 22, 11, 45, 22, 11]);
+//[ 11, 56, 22, 45 ]
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
