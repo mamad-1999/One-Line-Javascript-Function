@@ -257,3 +257,24 @@ average([11, 36, 63, 167, 32]);
 ```
 
 ---
+
+### 22. Get Query Params from URL
+
+```js
+const getParameters = (URL) =>
+  JSON.parse(
+    '{"' +
+      decodeURI(URL.split("?")[1])
+        .replace(/"/g, '\\"')
+        .replace(/&/g, '","')
+        .replace(/=/g, '":"') +
+      '"}'
+  );
+
+getParameters("https://www.google.de/search?q=animals&start=30");
+// Result: { q: 'animals', start: '30' }
+```
+
+#### Very useful function when you are dealing with url, query parameters. You can easily retrieve query parameters from a url by passing, url as the argument of the function.
+
+---
