@@ -308,3 +308,13 @@ randomNumberInRange(100, 2000);
 #### An essential JavaScript function to generate a random number between a specific range of numbers. You provide a minimum and a maximum value as arguments and the one-line function returns a random number from the given range.
 
 ---
+
+### 25. Check if a variable is an array
+
+```js
+const isArray = (arr) => Array.isArray(arr);
+
+isArray([1, 2, 3]);
+```
+
+---

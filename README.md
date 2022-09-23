@@ -305,6 +305,16 @@ randomNumberInRange(100, 2000);
 
 ---
 
+### 25. Check if a variable is an array
+
+```js
+const isArray = (arr) => Array.isArray(arr);
+
+isArray([1, 2, 3]);
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
