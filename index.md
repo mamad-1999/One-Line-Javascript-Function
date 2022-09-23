@@ -292,3 +292,19 @@ console.log(isDarkMode); // Result: True or False
 #### Find out if a user’s device is in dark mode, using the following code.
 
 ---
+
+### 24. Get a random number in a specific range
+
+```js
+const randomNumberInRange = (min = 0, max = 1000) =>
+  Math.floor(Math.random() * (max - min + 1)) + min;
+
+randomNumberInRange();
+// Result: Default random number range is 0 - 1000, so you get a number between 0 and 1000.
+randomNumberInRange(100, 2000);
+// Result: You will get a random number between 100 and 200, where 100 is min range and 200 is max range.
+```
+
+#### An essential JavaScript function to generate a random number between a specific range of numbers. You provide a minimum and a maximum value as arguments and the one-line function returns a random number from the given range.
+
+---
