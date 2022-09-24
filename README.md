@@ -315,6 +315,14 @@ isArray([1, 2, 3]);
 
 ---
 
+### 26. Generate a random string
+
+```js
+const randomString = () => Math.random().toString(36).slice(2);
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
