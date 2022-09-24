@@ -326,3 +326,22 @@ const randomString = () => Math.random().toString(36).slice(2);
 ```
 
 ---
+
+### 27. Convert Fahrenheit / Celsius
+
+```js
+const celsiusToFahrenheit = (celsius) => (celsius * 9) / 5 + 32;
+const fahrenheitToCelsius = (fahrenheit) => ((fahrenheit - 32) * 5) / 9;
+
+// Examples
+celsiusToFahrenheit(15); // 59
+celsiusToFahrenheit(0); // 32
+celsiusToFahrenheit(-20); // -4
+
+fahrenheitToCelsius(59); // 15
+fahrenheitToCelsius(32); // 0
+```
+
+#### Dealing with temperatures can be confusing at times. These 2 functions will help you convert Fahrenheit to Celsius and the other way around.
+
+---
