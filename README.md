@@ -350,6 +350,15 @@ const removeFalsyValue = (arr) => arr.filter(Boolean);
 
 ---
 
+### 29. Convert radians to degrees && degrees to radians
+
+```js
+const radsTodegs = (rad) => (rad * 180) / Math.PI;
+const degsTorads = (deg) => (deg * Math.PI) / 180.0;
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
