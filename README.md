@@ -342,6 +342,14 @@ fahrenheitToCelsius(32); // 0
 
 ---
 
+### 27. Remove falsy values from array
+
+```js
+const removeFalsyValue = (arr) => arr.filter(Boolean);
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo

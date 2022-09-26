@@ -345,3 +345,11 @@ fahrenheitToCelsius(32); // 0
 #### Dealing with temperatures can be confusing at times. These 2 functions will help you convert Fahrenheit to Celsius and the other way around.
 
 ---
+
+### 27. Remove falsy values from array
+
+```js
+const removeFalsyValue = (arr) => arr.filter(Boolean);
+```
+
+---
