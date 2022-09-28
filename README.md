@@ -359,6 +359,16 @@ const degsTorads = (deg) => (deg * Math.PI) / 180.0;
 
 ---
 
+### 30. Deep Copy an Object with ease
+
+```js
+const deepCopy = (obj) => JSON.parse(JSON.stringify(obj));
+```
+
+#### You can deep copy any object by converting it to a string and back to an object. This will work, not only with objects but other composite data types as well like Arrays.
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
