@@ -372,3 +372,16 @@ const deepCopy = (obj) => JSON.parse(JSON.stringify(obj));
 #### You can deep copy any object by converting it to a string and back to an object. This will work, not only with objects but other composite data types as well like Arrays.
 
 ---
+
+### 31. wait function
+
+```js
+const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const asyncFunc = async () => {
+  await wait(1000);
+  console.log("async");
+};
+asyncFunc();
+```
+
+---

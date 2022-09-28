@@ -369,6 +369,19 @@ const deepCopy = (obj) => JSON.parse(JSON.stringify(obj));
 
 ---
 
+### 31. wait function
+
+```js
+const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+const asyncFunc = async () => {
+  await wait(1000);
+  console.log("async");
+};
+asyncFunc();
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
