@@ -397,3 +397,13 @@ const navigateBack = () => history.go(-1);
 #### Need to send the user back to the page they came from? history object to the rescue!
 
 ---
+
+### 33. Check if an Element is Focused
+
+```js
+const hasFocus = (element) => element === document.activeElement;
+```
+
+#### You can effortlessly check if an element is currently focused without setting up the focus & blur listener.
+
+---

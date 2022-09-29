@@ -394,6 +394,16 @@ const navigateBack = () => history.go(-1);
 
 ---
 
+### 33. Check if an Element is Focused
+
+```js
+const hasFocus = (element) => element === document.activeElement;
+```
+
+#### You can effortlessly check if an element is currently focused without setting up the focus & blur listener.
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
