@@ -382,6 +382,18 @@ asyncFunc();
 
 ---
 
+### 32. Go Back to the Previous Page
+
+```js
+const navigateBack = () => history.back();
+// Or
+const navigateBack = () => history.go(-1);
+```
+
+#### Need to send the user back to the page they came from? history object to the rescue!
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
