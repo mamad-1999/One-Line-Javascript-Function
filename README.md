@@ -404,6 +404,18 @@ const hasFocus = (element) => element === document.activeElement;
 
 ---
 
+### 34. Text to speech
+
+```js
+const sound = (text) => {
+  var msg = new SpeechSynthesisUtterance();
+  msg.text = text;
+  window.speechSynthesis.speak(msg);
+};
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo

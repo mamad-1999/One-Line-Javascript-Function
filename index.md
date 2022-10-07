@@ -407,3 +407,15 @@ const hasFocus = (element) => element === document.activeElement;
 #### You can effortlessly check if an element is currently focused without setting up the focus & blur listener.
 
 ---
+
+### 34. Text to speech
+
+```js
+const sound = (text) => {
+  var msg = new SpeechSynthesisUtterance();
+  msg.text = text;
+  window.speechSynthesis.speak(msg);
+};
+```
+
+---
