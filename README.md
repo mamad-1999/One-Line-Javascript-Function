@@ -421,3 +421,5 @@ const sound = (text) => {
 1. fork the repo
 2. Edit index.md or Readme.md file (add new function)
 3. submit PR
+
+---
