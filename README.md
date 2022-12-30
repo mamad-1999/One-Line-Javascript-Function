@@ -1,5 +1,3 @@
-![js]()
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91375726/190903509-eedc8784-0e71-492e-8de6-dd667e044a27.png" alt="js" />
 </p>
