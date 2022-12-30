@@ -1,10 +1,12 @@
-![js](https://user-images.githubusercontent.com/91375726/190903509-eedc8784-0e71-492e-8de6-dd667e044a27.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/91375726/190903509-eedc8784-0e71-492e-8de6-dd667e044a27.png" alt="js" />
+</p>
 
-# 🚀 One-Line-Javascript-Function
+<h1 align="center">🚀 One-Line-Javascript-Function</h1>
 
-In this repository, I have compiled a list of one-line JavaScript Functions that are used daily and needed by every developer.
-
-## Let’s Start
+<p align="center">
+  In this repository, I have compiled a list of one-line JavaScript Functions that are used daily and needed by every developer.
+</p>
 
 ---
 
@@ -412,6 +414,14 @@ const sound = (text) => {
   msg.text = text;
   window.speechSynthesis.speak(msg);
 };
+```
+
+---
+
+### 34. Create UUID without any libraries
+
+```js
+const createUUIDv4 = () => crypto.randomUUID();
 ```
 
 ---
