@@ -420,6 +420,14 @@ const sound = (text) => {
 
 ---
 
+### 34. Create UUID without any libraries
+
+```js
+const createUUIDv4 = () => crypto.randomUUID();
+```
+
+---
+
 ## Contribution Guide
 
 1. fork the repo
