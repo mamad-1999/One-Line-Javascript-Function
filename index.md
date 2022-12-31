@@ -4,8 +4,6 @@ permalink: /
 layout: default
 ---
 
-# JavaScript Functions
-
 In this repository, I have compiled a list of one-line JavaScript Functions that are used daily and needed by every developer.
 
 ## Let’s Start
@@ -416,6 +414,14 @@ const sound = (text) => {
   msg.text = text;
   window.speechSynthesis.speak(msg);
 };
+```
+
+---
+
+### 35. Create UUID without any libraries
+
+```js
+const createUUIDv4 = () => crypto.randomUUID();
 ```
 
 ---

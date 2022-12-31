@@ -418,7 +418,7 @@ const sound = (text) => {
 
 ---
 
-### 34. Create UUID without any libraries
+### 35. Create UUID without any libraries
 
 ```js
 const createUUIDv4 = () => crypto.randomUUID();
